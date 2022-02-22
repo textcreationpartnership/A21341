@@ -1,0 +1,556 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Instructions for musters and armes, and the vse thereof by order from the lords of his Maiesties most honourable Priuy Counsayle</title>
+            <author>England and Wales. Privy Council.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1623</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A21341</idno>
+            <idno type="STC">STC 7683</idno>
+            <idno type="STC">ESTC S117602</idno>
+            <idno type="EEBO-CITATION">99852814</idno>
+            <idno type="PROQUEST">99852814</idno>
+            <idno type="VID">18164</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A21341)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 18164)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 832:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Instructions for musters and armes, and the vse thereof by order from the lords of his Maiesties most honourable Priuy Counsayle</title>
+                  <author>England and Wales. Privy Council.</author>
+               </titleStmt>
+               <extent>[14] p.   </extent>
+               <publicationStmt>
+                  <publisher>By Bonham Norton, and Iohn Bill, printers to the Kings most Excellent Maiestie,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1623.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A-B⁴ (-A1, blank?).</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Shooting, Military --  Early works to 1800.</term>
+               <term>England and Wales. Army --  Handbooks, manuals, etc. --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:18164:1"/>
+            <pb facs="tcp:18164:1" rendition="simple:additions"/>
+            <p>INSTRVCTIONS For MVSTERS AND ARMES, AND the vſe thereof:</p>
+            <p>By order from the Lords of His Maieſties most Honourable Priuy
+Counſayle.</p>
+            <figure>
+               <figDesc>royal blazon or coat of arms</figDesc>
+               <q>HONI SOIT QVI MAL Y PENSE</q>
+               <q>DIEV ET MON DROIT.</q>
+            </figure>
+            <p>¶ Imprinted at London by BONHAM NORTON, and IOHN BILL,
+Printers to the Kings moſt Excellent Maieſtie. 1623.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:18164:2"/>
+            <pb facs="tcp:18164:2"/>
+            <head>¶ Jnſtructions for MVSTERS and ARMES, and the vſe
+thereof.</head>
+            <p>
+               <seg rend="decorInit">F</seg>Irſt of all, it is to be vnderſtood that there are three
+ſorts of diſtances, to wit, <hi>Open Order, Order,</hi> and <hi>Cloſe
+Or<g ref="char:EOLhyphen"/>der. Open Order</hi> or the firſt diſtance is, when the Souldiers both
+in <hi>Ranke</hi> and <hi>File</hi> ſtand ſixe foot remooued one from
+another.<note place="margin">
+                  <p>Becauſe the meaſure of theſe diſtances cannot bee
+taken ſo iuſtly by the eye, we take the di<g ref="char:EOLhyphen"/>ſtance of ſix foote
+be<g ref="char:EOLhyphen"/>tweene file and file, by co<g ref="char:cmbAbbrStroke">̄</g>manding the Soul<g ref="char:EOLhyphen"/>diers, as they ſtand, to
+ſtretch foorth their armes, and ſtand ſo re<g ref="char:EOLhyphen"/>mooued one from ano<g ref="char:EOLhyphen"/>ther,
+that their handes may meet.</p>
+                  <p>And for the Ranks, wee make account wee take the ſame
+diſtance of ſixe foot, when the butte end of the Pikes doe almoſt reach
+their heeles that march be<g ref="char:EOLhyphen"/>fore. We take the ſe<g ref="char:EOLhyphen"/>cond order or diſtance of
+three foot betweene file and file, by bidding the Souldiers ſet their armes a
+Kenbow, and put themſelues ſo cloſe that their elbowes may meet. And wee
+reckon wee take the ſame di<g ref="char:EOLhyphen"/>ſtance betweene the Rankes, when they come vp
+almoſt to the ſwords point.</p>
+               </note>
+            </p>
+            <p>The ſecond diſtance, or your <hi>Order</hi> is, when the
+Souldiers ſtand three foot remooued both in <hi>Ranke</hi> and <hi>File,</hi>
+one from another; and this <hi>Or<g ref="char:EOLhyphen"/>der</hi> is to be vſed, when they are
+embattayled, or march in the face of an enemy, or when they come to ſtand, or
+when you will wheele. But when you march thorow any Country, you muſt
+obſerue three foot only from <hi>File</hi> to <hi>File,</hi> and ſixe from
+<hi>Ranke</hi> to <hi>Ranke.</hi> The third diſtance, or your <hi>Cloſe
+Order</hi> is commanded, by this word <hi>Cloſe,</hi> which is when there is
+one foot and a halfe from <hi>File</hi> to <hi>File,</hi> and three from
+<hi>Ranke</hi> to <hi>Rank,</hi> and this is for the Pikes onely, and muſt
+neuer be vſed but when you will ſtand firme to receiue the charge of an
+enemy. The Muskettiers muſt neuer be cloſer then the ſecond diſtance of
+three foot in ſquare, becauſe they are to haue a free vſe of their
+Armes.</p>
+            <p>In exerciſing your motions, you are alwayes to obſerue your
+<hi>Open Order</hi> of ſixe foot in ſquare, in which the company being
+firſt placed, you are to acquaint them to theſe termes of directions.</p>
+            <q>
+               <pb facs="tcp:18164:3"/>
+               <p>Stand right in your <hi>Files.</hi>
+               </p>
+               <p>Stand right in your <hi>Rankes.</hi>
+               </p>
+               <p>Silence.</p>
+               <p>To the right hand.</p>
+               <p>As you were.<note place="margin">It is to be noted when you are
+co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>manded to bee as you were, you are euer to returne by the con<g ref="char:EOLhyphen"/>trary hand,
+fro<g ref="char:cmbAbbrStroke">̄</g> whence you came. As for exa<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>ple, If you did turne to the right hand, you
+are to return as you were to the left hand, and ſo in the reſt.</note>
+               </p>
+               <p>To the left hand.</p>
+               <p>As you were.</p>
+               <p>To the right hand about.<note place="margin">When you will
+coun<g ref="char:EOLhyphen"/>termarch to the right hand, the firſt Ranke of Leaders only muſt
+ad<g ref="char:EOLhyphen"/>uance one ſtep forward with the right leg, and then turne, and all the
+other Rankes muſt march firſt vp to the place from whence the firſt Ranke
+did coun<g ref="char:EOLhyphen"/>termarch before they turne. So likewiſe if you wil countermarch to
+the left hand, the firſt Ranke muſt ſteppe forwarde one ſtep with the
+left leg, and then <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>urne, and all
+the other Rankes behinde muſt <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ome
+vp to that place before they, turn, as be<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ore. The ſame order
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s to be obſerued when
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ou will countermarch
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>our Files.</note>
+               </p>
+               <p>As you were.</p>
+               <p>To the left hand about.</p>
+               <p>As you were.</p>
+               <p>
+                  <hi>Rankes</hi> to the right hand double.</p>
+               <p>As you were.</p>
+               <p>
+                  <hi>Rankes</hi> to the left hand double.</p>
+               <p>As you were.</p>
+               <p>
+                  <hi>Files</hi> to the right hand double.</p>
+               <p>As you were.</p>
+               <p>
+                  <hi>Files</hi> to the left hand double.</p>
+               <p>As you were.</p>
+               <p>Middlemen to the right hand double your front.</p>
+               <p>As you were.</p>
+               <p>Middlemen to the left hand double your front.</p>
+               <p>As you were.</p>
+               <p>
+                  <hi>Rankes</hi> 
+                  <list>
+                     <item>to the right or</item>
+                     <item>left hand</item>
+                  </list> countermarch<note place="margin">In counter<g ref="char:EOLhyphen"/>marching, thogh
+both are heere ſet downe for diſtinction ſake, you are to name nei<g ref="char:EOLhyphen"/>ther
+Rankes nor Files: But are on<g ref="char:EOLhyphen"/>ly to ſay to the right hand coun<g ref="char:EOLhyphen"/>termarch, or to
+the left hand coun<g ref="char:EOLhyphen"/>termarch.</note>
+               </p>
+               <p>
+                  <list>
+                     <item>To the right or</item>
+                     <item>left hand</item>
+                  </list> at diſcretion.</p>
+               <p>
+                  <pb facs="tcp:18164:3"/>
+                  <hi>Files</hi> 
+                  <list>
+                     <item>to the right or</item>
+                     <item>left hand</item>
+                  </list> countermarch.</p>
+               <p>
+                  <list>
+                     <item>To the right or</item>
+                     <item>left hand</item>
+                  </list> As you were.</p>
+            </q>
+            <p>
+               <hi>Before you wheele.</hi>
+               <note place="margin">When you ex<g ref="char:EOLhyphen"/>erciſe
+a compa<g ref="char:EOLhyphen"/>ny ſingle, you double your Rankes before you wheele, in regard the
+bo<g ref="char:EOLhyphen"/>dy is ſmall. But in a diuiſion or greater body, you cloſe firſt both
+your files &amp; your Ranks to your Order of 3. foot, and omit the dou<g ref="char:EOLhyphen"/>bling,
+and ſo wheele.</note>
+            </p>
+            <q>
+               <p>
+                  <hi>Rankes</hi> 
+                  <list>
+                     <item>to the right or</item>
+                     <item>left hand</item>
+                  </list> double.<note place="margin">When you will wheele to the right
+hand, double your Rankes to the left hand, and when you wheele to the left
+hand, dou<g ref="char:EOLhyphen"/>ble your Ranks to the right hand. For ſo the right and left hand
+Lea<g ref="char:EOLhyphen"/>ders will keepe their places on that corner to<g ref="char:EOLhyphen"/>wards which you
+wheele.</note>
+               </p>
+               <p>
+                  <hi>Files</hi> 
+                  <list>
+                     <item>to the right or</item>
+                     <item>left hand, or to</item>
+                     <item>the middle</item>
+                  </list> cloſe to your <hi>Order</hi> to 3. foot betweene
+<hi>File</hi> &amp; <hi>File.</hi>
+               </p>
+               <p>
+                  <hi>Rankes</hi> cloſe to your <hi>Order</hi> to three foot
+betweene <hi>Ranke</hi> and <hi>Ranke.</hi>
+               </p>
+               <p>
+                  <list>
+                     <item>To the right hand wheele</item>
+                     <item>To the left hand wheele</item>
+                     <item>Or wheele about</item>
+                  </list> which you liſt and each as of<g ref="char:EOLhyphen"/>ten as you liſt.<note place="margin">This maner of opening is vſed onely in a ſingle compa<g ref="char:EOLhyphen"/>ny. For
+in grea<g ref="char:EOLhyphen"/>ter bodies where the dou<g ref="char:EOLhyphen"/>bling is omit<g ref="char:EOLhyphen"/>ted, you open firſt your
+Rankes, and then your files to your open Order of ſixe foot, to bring them
+backe a<g ref="char:EOLhyphen"/>gaine as they were.</note>
+               </p>
+            </q>
+            <p>
+               <hi>After you haue wheeled.</hi>
+            </p>
+            <q>
+               <p>
+                  <hi>Ranks</hi> backward open in double diſtance.<note place="margin">By double di<g ref="char:EOLhyphen"/>ſtance is meant 12. foot. For ſo the Rankes
+(which before did double) fal<g ref="char:EOLhyphen"/>ling out againe into their firſt places, come
+iuſt to the di<g ref="char:EOLhyphen"/>ſtance of their open Order of ſixe foote, in which they
+were before they doubled.</note>
+               </p> 
+               <p>
+                  <hi>Files</hi> open to your <hi>Order,</hi> that is, to 3.
+foot.</p> 
+               <p>
+                  <hi>Rankes</hi> as you were.</p>
+            </q>
+            <p>
+               <pb facs="tcp:18164:4"/>In opening <hi>Rankes</hi> or <hi>Files,</hi> you
+muſt make all the <hi>Files</hi> or <hi>Rankes,</hi> ſauing the outermoſt
+on that hand from whence you meane to open (which muſt ſtand) to mooue
+altogether, till the ſecond <hi>Ranke</hi> or <hi>File,</hi> from that which
+ſtandeth, haue gotten its diſtance, and ſubſequently the reſt.</p>
+            <p>If you will haue them cloſe their <hi>Files</hi> to the right or
+left hand, the outermoſt <hi>File</hi> on that hand you purpoſe to cloſe,
+muſt be commanded to ſtand, and all the reſt to cloſe to it.</p>
+            <q>
+               <list>
+                  <item>Aduance your pikes.<note place="margin">In charging, halfe
+the Rankes onely muſt charge their Pikes, the other hin<g ref="char:EOLhyphen"/>dermoſt halfe of
+the Rankes doe Port their Pikes, that is, they carry them ſo couched ouer the
+heads of the foremoſt, as may giue them no offence, either in charging or
+retyring. Beſides this way, the Pikes are not ſo ſubiect to be broken by
+the ſhot of the Enemy, as when they are aduanced.</note>
+                  </item>
+                  <item>Order your pikes.</item>
+                  <item>Shoulder your pikes</item>
+                  <item>Charge your pikes.</item>
+                  <item>Order your pikes.</item>
+                  <item>Traile your pikes.</item>
+                  <item>Checke your pikes.</item>
+               </list>
+            </q>
+            <p>¶ <hi>Theſe following motions are to be performed both
+ſtanding and marching.</hi> 
+               <q>
+                  <list>
+                     <item>Charge your pikes.</item>
+                     <item>Shoulder your pikes.</item>
+                     <item>To the right hand charge.<note place="margin">They muſt
+likewiſe obſerue when they charge ſtanding, to fall backe with the right
+legge, and marching, to ſtep forwards with the left.</note>
+                     </item>
+                     <item>Shoulder your pikes.</item>
+                     <item>To the left hand charge.</item>
+                     <item>Shoulder your pikes.</item>
+                     <item>To the Reare charge.</item>
+                     <item>Shoulder your pikes.</item>
+                     <item>Stand.</item>
+                     <item>Order your pikes.</item>
+                  </list>
+               </q>
+            </p>
+            <p>
+               <pb facs="tcp:18164:4"/>¶ For the Musket.</p>
+            <p>The Poſtures in his <hi>Excellencies</hi> Booke are to bee
+obſer<g ref="char:EOLhyphen"/>ued: But in Exerciſing, you muſt only vſe theſe three termes of
+direction. 
+<q>
+                  <list>
+                     <item>Make ready.</item>
+                     <item>Preſent.</item>
+                     <item>Giue fire.</item>
+                  </list>
+               </q>
+            </p>
+            <p>Your Muskettiers muſt obſerue in all their motions to turne to
+the right hand, and that they carry the mouth of their Peeces high, aſwell
+when they are ſhouldred, as in priming, and alſo when they hold their
+pannes guarded, and come vp to giue fire.</p>
+            <p>In aduancing towards an Enemie, when they doe not ſkirmiſh
+looſe and disbanded, they muſt giue fire by Rankes after this manner. Two
+Rankes muſt alwayes make ready together, and aduance tenne paces forwards
+before the bo<g ref="char:EOLhyphen"/>dies, at which diſtance a Sergeant (or when the body is great,
+ſome other Officer) muſt ſtand, to whom the Muſ<g ref="char:EOLhyphen"/>kettiers are to come vp
+before they preſent and giue fire. Firſt, the firſt Ranke, and whileſt
+the firſt giues fire, the ſe<g ref="char:EOLhyphen"/>cond Ranke keepe their Muskets cloſe to
+their Reſts, and their pannes guarded; and aſſoone as the firſt are
+fallen a<g ref="char:EOLhyphen"/>way, the ſecond preſently preſent and giue fire, and fall after
+them. Now aſſoone as the two firſt Rankes doe moue from their places in
+the front, the two Rankes next it muſt vnſhoulder their Muskets and make
+ready, ſo as they may aduance forwards ten paces, as before; aſſoone as
+euer the two firſt Rankes are fallen away and are to doe in all points
+<pb facs="tcp:18164:5"/>as the former. So all the other Rankes through the whole diuiſion
+muſt doe the ſame by twoes one after another.</p>
+            <p>
+               <hi>A manner there is to giue fire retiring from an Enemy, which
+is performed after this ſort.</hi>
+            </p>
+            <p>As the Troope marcheth, the hindermoſt Ranke of all keeping
+ſtill with the Troope maketh ready, and being rea<g ref="char:EOLhyphen"/>dy, the Souldiers in that
+Ranke turn altogether to the right hand, and giue fire, marching preſently
+away a good round pace to the Front, and there place themſelues in Ranke
+together iuſt before the Front. Aſſoone as the firſt Ranke turnes to
+giue fire, the Ranke next it makes ready and doth as the former, and ſo the
+reſt.</p>
+            <p>We giue fire by the Flanke thus; The outermoſt file next the
+Enemy muſt be commanded to make ready, keeping ſtill along with the body,
+till ſuch time as they be ready, and then they turne to the right or left
+hand, according to the ſight of their Enemy, either vpon their right or left
+flanke, and giue fire altogether: when they haue diſcharged they ſtir not,
+but keepe their ground, and charge their Peeces a<g ref="char:EOLhyphen"/>gaine in the ſame place
+they ſtand. Now aſſoone as the a<g ref="char:EOLhyphen"/>foreſaid file doeth turne to giue
+fire, the outermoſt next it makes ready, alwayes keeping along with the
+Troope, till the bringer vp bee paſt a little beyond the leader of that file
+that gaue fire laſt, and then the whole file muſt turne &amp; giue fire;
+and doe in all points as the firſt did, and ſo all the reſt one after the
+other. A Sergeant, or (if the Troope be great) ſome other better qualified
+Officer muſt ſtand at the head of<pb facs="tcp:18164:5"/>the firſt file, and
+aſſoone as the ſecond file hath giuen fire, and hath charged, hee is to
+lead forward the firſt file vp to the ſecond file, and ſo to the reſt
+one after another, till hee hath gathered vp againe the whole wing, and then
+hee is to ioyne them againe in equall front with the Pikes.</p>
+            <p>Laſt of all the Troope or whole Wing of Muſketiers makes ready
+altogether, and the firſt Ranke without ad<g ref="char:EOLhyphen"/>uancing giues fire in the place it
+ſtands in, and ſpeedily as it may, yet orderly, falles away, all the Rankes
+doing the ſame ſucceſſiuely one after another.</p>
+            <p>The Armes of a Pikeman, are Gorget, Curats, Headpeece, Sword,
+Girdle and Hangers.</p>
+            <p>The Armes of a Musketier, are a Musket, a Reſt, Bande<g ref="char:EOLhyphen"/>liers,
+Headpeece, Sword, Girdle and Hangers.</p>
+            <p>It is required, that the Muskets be all of a Bore, the Pikes of a
+length: But to the end this courſe may not by a ſuddain alteration turne to
+a generall charge and burthen vpon the people, the Lords Lieutenants, and the
+Deputy Lieutenants are rather to vſe the way of aduice and encouragement, as
+a matter which will be very acceptable to his Maieſtie, who will take notice
+of the affection of ſuch as ſhall moſt readily prouide, Armes according
+to this order, then to inforce a preſent generall obſeruation thereof. But
+in caſe where the Armes ſhall bee decayed, and muſt bee renewed, this
+order is to be ſtrictly obſerued.</p>
+            <p>The Armes of Horſemen, Cuiraſſiers, are a Gorget, Cu<g ref="char:EOLhyphen"/>rats,
+Cutaſes, Pouldrons, Vambraces, a left hand Gauntlet, Taces, Cuiſſes, a
+Caske, a Sword, Girdle and Hangers, a caſe of Piſtols, Firelockes, Saddle,
+Bridle, Bitt, Petrell, Croo<g ref="char:EOLhyphen"/>per, with the leathers belonging to faſten his
+Piſtols, and his<pb facs="tcp:18164:6"/>neceſſary ſacke of carriage, and a good
+horſe to mount on.</p>
+            <p>The Armes of a Hargobuzier or Dragon, which hath ſucceeded in
+the place of light horſemen (and are indeed of ſingular vſe almoſt in
+all the actions of warre) the Armes are a good Hargobus or Dragon, fitted with
+an iron worke, to be carried in a Belt, a Belt with a Flaske, Priming-box, Key,
+and Bullet bag, an open Headpeece with cheekes, a good Buffe coat with deepe
+skirts, Sword, Girdle and Hangers, a Saddle, Bridle, Bitt, Perrell, Crooper,
+with Strappes for his ſacke of neceſſaries, and a horſe of leſſe
+force and leſſe price then the Cuiraſſier.</p>
+            <p>In the exerciſe of the foot troupes, the companies are to be of
+hundreds onely, beſides Officers, that they may bee ſo much the neerer
+together to bee trayned and exerciſed with leſſe paines to the
+ſouldiers, and leſſe loſſe of time, when they ſhalbe called
+together by their Captaine.</p>
+            <p>The Company is to be diuided into Files of ten in a File; 
+<note place="margin">
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eader. <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iddlema<g ref="char:cmbAbbrStroke">̄</g>
+middlema<g ref="char:cmbAbbrStroke">̄</g> 
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ringer vp</note>the File
+is to bee diſtinguiſhed into a Leader, a Bringer vp, two Middlemen, and
+three betweene the Leader and his Middleman, and three betweene the bringer vp
+and his Mid<g ref="char:EOLhyphen"/>dleman. When the Companies come together, they are to be
+exerciſed ten in depth (as the proportion beſt fitted to re<g ref="char:EOLhyphen"/>ceiue all
+charges, and performe all executions) But in caſes of neceſſity in
+ſeruice, and for exerciſe, it will be requiſite to reduce them into fiue
+in File, and then thoſe two Middle<g ref="char:EOLhyphen"/>men become bringers vp, and then haue a
+kinde of charge ouer thoſe three betweene the Leader and the Bringer vp, and
+will bee of great vſe in preparing and exerciſing of the ſouldiers in the
+practiſe of their Armes and order. For it is not intended that the whole
+Companies ſhould be drawne<pb facs="tcp:18164:6"/>together to be exerciſed: But that
+vpon Sundayes after Eue<g ref="char:EOLhyphen"/>ning prayer, and vpon Holidayes (as it hath beene
+formerly vſed for Bow) the Leader, Bringer vp, or Middlemen ſhould
+exerciſe together with his whole File, or ſuch a part as dwels moſt
+conuenient for him. And further that once in a month, or ſixe weekes, the
+Captaine, Lieutenant or Ancient may (with the knowledge of the Deputy
+Lieutenant that dwels next him) vpon a Holiday exerciſe a ſquadron of his
+Com<g ref="char:EOLhyphen"/>pany, or the whole, as ſhall ſeeme good to the Deputy Lieu<g ref="char:EOLhyphen"/>tenant.</p>
+            <p>The like forme for the Horſe: 
+<note place="margin">o Leader. middlema<g ref="char:cmbAbbrStroke">̄</g> middlema<g ref="char:cmbAbbrStroke">̄</g> Bringer
+vp</note>But it is to bee obſerued that the Files of Horſe are neuer to be
+aboue ſix, but diſtin<g ref="char:EOLhyphen"/>guiſhed by the names of Leader, Bringer vp, and two
+Mid<g ref="char:EOLhyphen"/>dlemen, and to bee doubled to three deepe, vpon occaſion. And to auoyd
+the great abuſe, that is practiſed by thoſe that are inrolled to keepe
+horſes for the Kings ſeruice, That the Leader, Bringer vp, or Middlemen of
+the Files of Horſe, doe exerciſe the Horſe vpon Holidayes and Sundayes
+after Euening prayer: And that the Captaine by himſelfe, his Lieutenant, or
+Cornett, may (with knowledge of the next Deputy Lieutenant) vpon a Holiday call
+together ſome Files or a ſquadron of his Company, to practice them in the
+exerciſe of their Armes. The Officers alſo both of Horſe and Foot Bands,
+aſwell in the chiefe, as inferiours, Sergeants, Corporals, and Lamprizados,
+are to haue a more ſpeciall care for the ordinary exerciſing of the
+Souldiers of their Company, which dwell next vnto them, and properly for
+them.</p>
+            <p>A ſpeciall care and order muſt be taken that all thoſe that
+finde a man to ſerue on Horſebacke, whether they finde the<pb facs="tcp:18164:7"/>Horſe or the Man, or both, muſt not change the Horſe or Man at
+their pleaſure: for ſo it would bee euery day to pra<g ref="char:EOLhyphen"/>ctiſe a new man or a
+new horſe, and the exerciſe bee made vaine. But they muſt take into
+conſideration, that the man and horſe deſigned to the ſeruice of the
+King, hath (by the intention of the Law) beene dedicated ſo to the intereſt
+of the King, as they muſt alwayes be in readineſſe at the call of the
+Kings Officers, and may not bee changed without the knowledge and conſent of
+the Captaine, or Deputy Lieute<g ref="char:EOLhyphen"/>nant next adioyning, or by warrant of the Lord
+Lieutenant. And this with this onely limitation, that another ſufficient man
+or horſe be ſupplied in the roome of the man or horſe made deficient, for
+a iuſt cauſe well approoued of. And as the Souldier, or Horſe may not bee
+changed or diſcharged, without the knowledge of the Captaine, or Superiour
+Offi<g ref="char:EOLhyphen"/>cers. So is it not lawfull for the Captaine to change or diſ<g ref="char:EOLhyphen"/>charge any
+man or horſe (once inrolled) without the appro<g ref="char:EOLhyphen"/>bation of the Lo. Lieutenant,
+or his Deputy.</p>
+            <p>A principall care is to be taken for the prouiſion of the Armes,
+that they may bee prouided at ſuch rates as they are truely worth, that the
+people be not ſubiect to the abuſe of vndertakers for theſe
+buſineſſes: And alſo for the furniſhing of euery Shire with a
+competent proportion of Match, Pow<g ref="char:EOLhyphen"/>der and Bullets, to which purpoſe
+directions haue beene heeretofore already giuen. Neuertheleſſe it is not
+held ne<g ref="char:EOLhyphen"/>ceſſary, vntill the Souldiers bee perfect in their poſtures, and
+ready managing of the Pike when they are armed, and the Musket together with
+the Reſt, that there ſhould bee a<g ref="char:EOLhyphen"/>ny expence of powder at all: And then for
+ſome time to bee exerciſed with ſome falſe fires, which is onely a
+little pow<g ref="char:EOLhyphen"/>der<pb facs="tcp:18164:7"/>in the pan: Nor at any time to blow away their powder
+in vaine; but that powder which ſhould be allowed by the Country for
+trayning, be beſtowed only at Marks: In which caſe, it is to be wiſht,
+that little ſmall prizes might bee proui<g ref="char:EOLhyphen"/>ded at the coſt of the Country, to
+bee ſhot for at the markes, which would giue an ambition to men to cary them
+away, and would ſaue the Country more in powder then their value: And a
+deſire in men to render themſelues per<g ref="char:EOLhyphen"/>fect, would make them to finde
+themſelues powder with that money, which on thoſe daies, and in thoſe
+times, would bee worſe ſpent in an Alehouſe.</p>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶ Imprinted at London by BONHAM NORTON, and IOHN BILL,
+Printers to the Kings moſt Ex<g ref="char:EOLhyphen"/>cellent Maieſtie.</p>
+            <closer>
+               <dateline>
+                  <date>Anno Dom. 1623.</date>
+               </dateline>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
